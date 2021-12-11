@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  /* flex-flow: column wrap; */
+
+  justify-content: flex-start;
+}
+
+.col-taken {
+  background-color: brown;
+  width: 20%;
+}
+.col {
+  width: 20%;
+}
+
+.row-room {
+  border-color: #222;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.grid {
+  /* background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px); */
+  display: "block";
+  width: 1000;
+  padding: 30;
+}
